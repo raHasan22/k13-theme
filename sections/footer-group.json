@@ -56,21 +56,21 @@
         "link_list_a8wGX7": {
           "type": "link_list",
           "settings": {
-            "title": "School \"InternetUrok\"",
+            "title": "School program",
             "menu": ""
           }
         },
         "link_list_a7rJCK": {
           "type": "link_list",
           "settings": {
-            "title": "School \"InternetUrok\"",
+            "title": "Additionally",
             "menu": ""
           }
         },
         "link_list_VhErLG": {
           "type": "link_list",
           "settings": {
-            "title": "School \"InternetUrok\"",
+            "title": "About Us",
             "menu": ""
           }
         },
@@ -84,14 +84,14 @@
         "bottom_link_list_WCJemn": {
           "type": "bottom_link_list",
           "settings": {
-            "title": "For preschoolers",
+            "title": "Help for a schoolchild",
             "menu": ""
           }
         },
         "bottom_link_list_XcitPU": {
           "type": "bottom_link_list",
           "settings": {
-            "title": "For preschoolers",
+            "title": "Useful",
             "menu": ""
           }
         },
@@ -153,7 +153,8 @@
         "show_license_card": true,
         "license_text": "State\nlicense",
         "show_social_links": true,
-        "show_scroll_top": true
+        "show_scroll_top": true,
+        "license_url": "#"
       }
     },
     "footer": {

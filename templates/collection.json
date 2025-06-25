@@ -13,7 +13,8 @@
       "type": "main-collection-banner",
       "settings": {
         "show_collection_description": true,
-        "show_collection_image": false,
+        "padding_top": 78,
+        "padding_bottom": 0,
         "color_scheme": "scheme-1"
       }
     },
@@ -64,7 +65,7 @@
           "type": "testimonial",
           "settings": {
             "author_name": "Customer Name",
-            "testimonial_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "testimonial_text": "Lorem ipsum dolor sit amet, elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Orcinulla pellentesque dignissim enim. Amet consectetur adipiscing",
             "rating": 5,
             "author_title": "",
             "author_link": ""
@@ -74,7 +75,7 @@
           "type": "testimonial",
           "settings": {
             "author_name": "Customer Name",
-            "testimonial_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "testimonial_text": "Lorem ipsum dolor sit amet, elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Orcinulla pellentesque dignissim enim. Amet consectetur adipiscing",
             "rating": 5,
             "author_title": "",
             "author_link": ""
@@ -92,8 +93,8 @@
         "section_title": "Testimonials",
         "padding_top": 80,
         "padding_bottom": 80,
-        "gradient_color_1": "#F09E00",
-        "gradient_color_2": "#FF6A2B",
+        "gradient_color_1": "#f09e00",
+        "gradient_color_2": "#ff6a2b",
         "gradient_angle": 240,
         "slides_per_view_desktop": 3,
         "slides_per_view_tablet": 2,
