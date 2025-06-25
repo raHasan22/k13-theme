@@ -35,7 +35,7 @@
     }
   }
 {%- endstyle -%}
-
+{{ 'all-courses.css' | asset_url | stylesheet_tag }}
 <div class="section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }}">
   {%- paginate collection.products by section.settings.products_per_page -%}
     {% comment %} Sort is the first tabbable element when filter type is vertical {% endcomment %}
@@ -205,8 +205,8 @@
       "id": "products_per_page",
       "min": 8,
       "max": 36,
-      "step": 4,
-      "default": 16,
+      "step": 1,
+      "default": 15,
       "label": "t:sections.main-collection-product-grid.settings.products_per_page.label"
     },
     {
@@ -215,13 +215,13 @@
       "min": 1,
       "max": 6,
       "step": 1,
-      "default": 4,
+      "default": 3,
       "label": "t:sections.main-collection-product-grid.settings.columns_desktop.label"
     },
     {
       "type": "select",
       "id": "columns_mobile",
-      "default": "2",
+      "default": "1",
       "label": "t:sections.main-collection-product-grid.settings.columns_mobile.label",
       "options": [
         {
@@ -233,7 +233,7 @@
           "label": "t:sections.main-collection-product-grid.settings.columns_mobile.options__2.label"
         }
       ]
-    },    
+    },
     {
       "type": "color_scheme",
       "id": "color_scheme",

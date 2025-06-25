@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="">
     <link rel="canonical" href="{{ canonical_url }}">
-
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Luckiest+Guy&display=swap"
+      rel="stylesheet"
+    >
     {%- if settings.favicon != blank -%}
       <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
     {%- endif -%}
@@ -290,6 +293,7 @@
         onload="this.media='all'"
       >
     {%- endif -%}
+    {{ 'sa-swiper.css' | asset_url | stylesheet_tag }}
 
     <script>
       if (Shopify.designMode) {
@@ -372,5 +376,6 @@
     {%- if settings.cart_type == 'drawer' -%}
       <script src="{{ 'cart-drawer.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+    <script src="{{ 'sa-swiper.js' | asset_url }}" defer="defer"></script>
   </body>
 </html>
